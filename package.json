@@ -1,31 +1,30 @@
 {
-  "name": "logger-function",
+  "name": "cors-anywhere",
   "version": "1.0.0",
-  "description": "Log function for Logger",
+  "description": "Proxy to bypass CORS",
   "author": {
     "name": "Nguyen Thuc",
     "email": "contact@ngthuc.com",
     "homepage": "https://ngthuc.com/"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "dependencies": {
-    "cors-anywhere": "^0.4.4",
-    "dotenv": "^9.0.2",
-    "dotenv-expand": "^5.1.0",
-    "moment": "^2.29.1"
+    "cors-anywhere": "^0.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngthucdotcom/nodejs-server.git"
+    "url": "git+https://github.com/ngthucdotcom/cors-anywhere.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngthucdotcom/nodejs-server/issues"
+    "url": "https://github.com/ngthucdotcom/cors-anywhere/issues"
   },
-  "homepage": "https://github.com/ngthucdotcom/nodejs-server#readme"
+  "homepage": "https://github.com/ngthucdotcom/cors-anywhere#readme"
 }
